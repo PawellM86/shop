@@ -1,0 +1,486 @@
+body{
+  background-color: #F5F5F5;
+}
+li{
+  list-style: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.top ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+
+}
+.top{
+  background-color: black;
+  width: 100%;
+}
+.top p {
+  margin-bottom: 0;
+  color: white;
+  font-family: 'Arturo Trial';
+  font-weight: bold;
+  font-size: 20px;
+}
+.top li{
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+#s, #bpress {
+  border: none;
+}
+#bord{
+  padding: 5px;
+  border: 1px solid #84C639;
+}
+#best-offer{
+  background-color: #84C639;
+  cursor: pointer;
+}
+#color-red,#bpress{
+  background-color: #FA1818;
+  cursor: pointer;
+  color: white;
+}
+.fa-user-circle{
+  font-size: 25px;
+  color: white;
+}
+.fa-caret-down{
+  color: white;
+  font-size: 18px;
+  padding-left: 3px;
+}
+#sub {
+  display: block;
+  position: relative;
+}
+#sub > ul{
+  display: none;
+  position: absolute;
+  background-color: white;
+  right: 1px;
+}
+#sub > ul a{
+  color: white;
+}
+#sub > ul li{
+  border-bottom: 1px solid #84C639;
+  background-color: black;
+}
+#sub > ul a:hover{
+  color: #FA1818;
+  transition: 0.5s;
+}
+
+#sub:hover > ul{
+  display: block;
+}
+
+/* header 2 styles */
+.header2{
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.head2-left{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo a{
+  font-size: 40px;
+  font-family: 'Arturo Trial';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header2 ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+.header2 li{
+  padding: 10px;
+
+}
+.header2 a{
+  color: black;
+  font-family: 'Arturo Trial';
+}
+
+.header2 a:hover{
+  color: #FA1818;
+  transition: 0.5s;
+}
+.cont ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.header3{
+  display: flex;
+  background-color: #84C639;
+}
+.header3 ul{
+  margin-bottom: 0;
+}
+.header3 a{
+  color: white;
+
+}
+.header3 a:hover{
+  color: #FA1818;
+  transition: 0.5s;
+}
+.header3 li{
+  padding: 10px;
+}
+.cont{
+  width: 90%;
+}
+.fa-home,.fa-phone-volume,.fa-envelope-open{
+  margin-right: 5px;
+}
+/* main section styles */
+
+.left-menu{
+  display: flex;
+}
+.navbar{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 0;
+}
+.navbar li{
+  border-bottom: 1px solid silver;
+}
+.navbar li:hover,
+.dropdown-item:hover{
+  background-color:#FA1818;
+  transition: 0.6s;
+}
+.navbar-nav{
+  display: flex!important;
+  flex-direction: column!important;
+  width: 100%;
+}
+.carousel {
+    position: relative;
+    width: 80%;
+    height: 300px;
+}
+.nav-item a{
+  color: black!important;
+  padding-left: 50px!important;
+}
+.nav-link:hover,
+.dropdown-item:hover{
+  color: white!important;
+}
+.nav-link,
+.dropdown-item{
+  font-family: 'Arturo Trial';
+  font-weight: bold;
+}
+.collapse{
+  width: 100%;
+}
+.carousel-caption{
+  text-shadow:
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+}
+.carousel-caption h5{
+  font-size: 40px;
+  font-family: 'Arturo Trial';
+  font-weight: bold;
+}
+.carousel-caption p{
+  font-size: 20px;
+  font-family: 'Arturo Trial';
+  font-weight: bold;
+}
+.carousel-indicators{
+  padding-bottom: 20px;
+}
+
+/* products filter styles */
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    margin-left: 100px!important;
+    margin-right: 100px!important;
+}
+.product-name a{
+  color: black!important;
+}
+.products li{
+  margin: 0!important;
+}
+.woocommerce-LoopProduct-link{
+  border: 1px solid silver!important;
+  border-radius: 4px;
+  box-shadow: 1px 5px 10px -5px black;
+}
+.woocommerce-LoopProduct-link:hover{
+  -webkit-box-shadow: 0px 0px 65px -17px rgba(250,24,24,1);
+  -moz-box-shadow: 0px 0px 65px -17px rgba(250,24,24,1);
+  box-shadow: 0px 0px 65px -17px rgba(250,24,24,1);
+}
+.type-product{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px!important;
+  width: 165px!important;
+}
+.woocommerce-loop-product__title{
+  color: black;
+  text-align: center;
+}
+.price{
+  text-align: center;
+}
+.add_to_cart_button{
+  width: 100%;
+  text-align: center;
+  background-color: #FA1818!important;
+  color: white!important;
+  box-shadow: 1px 5px 10px -5px black!important;
+}
+.add_to_cart_button:hover{
+  background-color: #84C639!important;
+  transition: 0.4s;
+}
+.added_to_cart{
+display: none!important;
+}
+.content-area a{
+  color: black;
+}
+.added_to_cart2{
+  border: 1px solid white;
+  font-family: 'Arturo Trial';
+  font-weight: bold;
+  padding: 5px;
+}
+.added_to_cart2:hover{
+  background-color: #84C639!important;
+  color: white;
+}
+.woocommerce-ordering{
+margin-right: 10px!important;
+}
+/* main categories styles */
+
+.product-category{
+  width: 300px!important;
+  padding: 10px!important;
+  box-shadow: 1px 5px 10px -5px black
+}
+.product-category:hover{
+  opacity: 0.6;
+}
+.woocommerce-loop-category__title{
+  color: black!important;
+}
+
+/* billing page styles */
+.col-1{
+  max-width: 100%!important;
+}
+.col-2{
+  max-width: 100%!important;
+}
+.single-product{
+  width: 100%!important;
+}
+
+/* footer section styles */
+	.pfooter-container{
+		background-color: #373743;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.pfooter-container h3,a,p{
+		color: white;
+	}
+	.pfooter-container a,p {
+		font-size: 13px;
+	}
+	.footer-navigacija ul{
+		padding-left: 0;
+	}
+	.pfooter-container li {
+		margin-bottom: 10px;
+	}
+  .footer-navigacija a:hover{
+    color: #FA1818;
+    transition: 0.5s;
+  }
+	.pfooter-ul{
+		padding-left: 150px;
+		padding-right: 150px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.footer-form button{
+		border: none;
+		border-radius: 3px;
+		background-color: #FFA101;
+		padding: 7px;
+		color: white;
+		cursor: pointer;
+	}
+  .footer-form p{
+    margin-bottom: 0;
+    padding: 2px;
+  }
+  .footer-form p:hover{
+    border: 0.5px solid white;
+    border-radius: 3px;
+  }
+	.footer-form input {
+		border: 1px solid white;
+		background-color: #373743;
+		padding: 6px;
+		border-radius: 3px;
+		outline: none;
+	}
+	.naujienlaiskis a{
+		font-size: 30px;
+	}
+	.fa-facebook-square{
+		color: #4267B2;
+	}
+	.fa-twitter-square{
+		color: #1DA1F2;
+	}
+	.fa-google-plus-square{
+		color: #DA4B39;
+	}
+	.app-av li{
+		background-color: #53525D;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+	.fa-apple{
+		font-size: 20px;
+	}
+	.app-av a{
+		font-size: 16px;
+		padding: 10px;
+		display: flex;
+		justify-content: space-around;
+	}
+  .app-av a:hover{
+    color: #FA1818;
+    transition: 0.5s;
+  }
+	.app-av li:hover {
+
+	}
+	.rights {
+		display: flex;
+		justify-content: center;
+		background-color: #373743;
+		padding-left: 150px;
+		padding-right: 150px;
+		text-align: center;
+	}
+	.teises{
+		width: 40%;
+	}
+	.f{
+		width: 100%;
+		border-bottom: 1px solid white;
+		margin-bottom: 20px;
+	}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+  .top ul {
+    display: flex;
+    justify-content: center;
+  }
+  .top p{
+    font-size: 15px;
+  }
+
+  #rbord{
+    display: none;
+  }
+  .header2{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .header2 ul{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .header3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header3 > ul {
+    text-align: center;
+    padding-left: 0;
+  }
+  .left-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .carousel {
+      position: relative;
+      width: 100%;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-item a{
+    padding-left: 0!important;
+    text-align: center;
+  }
+  .dropdown-item{
+    padding-right:0!important;
+  }
+
+
+
+
+
+
+
+}
