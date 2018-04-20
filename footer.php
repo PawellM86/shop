@@ -4,17 +4,17 @@
 		<div class="pfooter-ul">
 			<div class="footer-navigacija">
 				<ul>
-					<h3>Navigacija</h3>
-					<li> <a href="#">Pagrindinis</a> </li>
-					<li> <a href="#">Kategorija1</a> </li>
-					<li> <a href="#">Kategorija2</a> </li>
-					<li> <a href="#">Kategorija3</a> </li>
-					<li> <a href="#">Kategorija4</a> </li>
-					<li> <a href="#">Kategorija5</a> </li>
+					<h3>Informacija</h3>
+					<li> <a href="#">Apie mus</a> </li>
+					<li> <a href="#">Geriausi pasiūlymai</a> </li>
+					<li> <a href="#">Artimiausios akcijos</a> </li>
+					<li> <a href="#">Kaip pirkti</a> </li>
+					<li> <a href="#">Privatumo politika</a> </li>
+
 				</ul>
 			</div>
-
-			<div class="naujienlaiskis">
+		
+						<div class="naujienlaiskis">
 				<ul>
 					<h3>Užsakyk naujienlaiškį</h3>
 					<li><p>Įveskite savo elektroninį paštą ir užsakykite naujienas</p></li>
